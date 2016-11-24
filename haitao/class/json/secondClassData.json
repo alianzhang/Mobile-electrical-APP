@@ -1,0 +1,16 @@
+[
+{"fID":"s001","fRootID":"r001","fClassName":"为您推荐"},
+{"fID":"s002","fRootID":"r001","fClassName":"男士"},
+{"fID":"s003","fRootID":"r001","fClassName":"女士"},
+{"fID":"s004","fRootID":"r002","fClassName":"当季流行"},
+{"fID":"s005","fRootID":"r002","fClassName":"明星同款"},
+{"fID":"s006","fRootID":"r002","fClassName":"精品女鞋"},
+{"fID":"s007","fRootID":"r003","fClassName":"衬衫"},
+{"fID":"s008","fRootID":"r003","fClassName":"休闲裤"},
+{"fID":"s009","fRootID":"r003","fClassName":"公文包"},
+{"fID":"s010","fRootID":"r004","fClassName":"相机"},
+{"fID":"s011","fRootID":"r004","fClassName":"手机"},
+{"fID":"s012","fRootID":"r004","fClassName":"手表"},
+{"fID":"s013","fRootID":"r005","fClassName":"当季生鲜"},
+{"fID":"s014","fRootID":"r005","fClassName":"各地美食"}
+]

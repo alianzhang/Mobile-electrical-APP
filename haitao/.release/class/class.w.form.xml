@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" class="main13 cUNBN7n" component="$model/UI2/system/components/justep/window/window" design="device:mobile;" xid="window" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cUNBN7n" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/bootstrap/row/row,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/button/button,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.text-black.cUNBN7n{color: rgb(51, 51, 51)} .tb-nopadding.cUNBN7n{padding-left: 0; padding-right: 0} .x-panel-top.cUNBN7n .x-titlebar.cUNBN7n{background-color: rgb(252, 60, 79)} .x-titlebar.cUNBN7n .x-titlebar-title.cUNBN7n{font-weight: normal} .x-cards.cUNBN7n{padding: 0} .tb-box.cUNBN7n, .tb-box.cUNBN7n &gt; .col.cUNBN7n{height: 100%; margin: 0; padding: 0} .tb-box.cUNBN7n &gt; .col.cUNBN7n{overflow: auto} .tb-box.cUNBN7n &gt; .col.cUNBN7n:first-child{padding-right: 10px} .list-group.cUNBN7n{box-shadow: none} .list-group-item.cUNBN7n{background-color: rgb(245, 245, 245); border-radius: 0; border-color: rgb(225, 225, 225)} .list-group-item.current.cUNBN7n{background-color: rgb(255, 255, 255); border-right: 0; color: rgb(252, 60, 79)} .list-group-item.current.cUNBN7n h5.cUNBN7n{color: rgb(252, 60, 79)} .tb-listBox.cUNBN7n{padding-left: 0px; padding-right: 10px; margin-bottom: 10px} .tb-listBox.cUNBN7n div.cUNBN7n{background-color: rgb(255, 255, 255)} .tb-listBox.cUNBN7n p.cUNBN7n{font-size: 13px; margin-top: 5px}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cUNBN7n" class="cUNBN7n"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full x-card x-has-iosstatusbar p28e83fd96cab49a581f4952dd74c1662-iosstatusbar cUNBN7n" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cUNBN7n"> 
+    <div class="x-panel-top cUNBN7n" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" data-config="{&quot;height&quot;:49}" __cid="cUNBN7n"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cUNBN7n" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;宝贝分类&quot;}" __cid="cUNBN7n"> 
+        <div class="x-titlebar-left cUNBN7n" __cid="cUNBN7n"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cUNBN7n" xid="button6" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;分类&quot;}" __cid="cUNBN7n"> 
+            <i xid="i6" class="icon-chevron-left cUNBN7n" __cid="cUNBN7n"/>  
+            <span xid="span6" __cid="cUNBN7n" class="cUNBN7n">分类</span> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cUNBN7n" __cid="cUNBN7n">宝贝分类</div>  
+        <div class="x-titlebar-right  cUNBN7n" __cid="cUNBN7n">
+          <div class="empty cUNBN7n" __cid="cUNBN7n"/>
+        </div> 
+      </div> 
+    </div>  
+    <div xid="content" class="x-panel-content x-cards cUNBN7n" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cUNBN7n"> 
+      <div component="$model/UI2/system/components/bootstrap/row/row" class="row tb-box cUNBN7n" data-bind="component:{name:'$model/UI2/system/components/bootstrap/row/row'}" __cid="cUNBN7n"> 
+        <div class="col col-xs-3 cUNBN7n" xid="col10" __cid="cUNBN7n"> 
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list tb-root cUNBN7n" xid="rootClassList" dataItemAlias="rootClassRow" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;rootClassData&quot;}" __cid="cUNBN7n"> 
+            <ul class="x-list-template list-group hide cUNBN7n" xid="listTemplateUl1" bind-foreach="{data:$model.foreach_rootClassList($element),afterRender:$model.foreach_afterRender_rootClassList.bind($model,$element),as:'rootClassRow'}" __cid="cUNBN7n"> 
+              <li xid="li1" bind-css="{'current':rootClassRow.val('fID')==$model.rootClassData.val('fID')}" class="list-group-item text-center tb-nopadding cUNBN7n" __cid="cUNBN7n"> 
+                <h5 xid="h52" bind-text="ref('fClassName')" class="text-black cUNBN7n" __cid="cUNBN7n"/> 
+              </li> 
+            </ul> 
+          </div> 
+        </div>  
+        <div class="col col-xs-9 cUNBN7n" xid="col11" __cid="cUNBN7n"> 
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list cUNBN7n" xid="secondClassList" dataItemAlias="secondClassRow" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;secondClassData&quot;,&quot;filter&quot;:&quot;$row.val(\&quot;fRootID\&quot;)==$model.rootClassData.val(\&quot;fID\&quot;)&quot;}" __cid="cUNBN7n"> 
+            <ul class="x-list-template hide cUNBN7n" xid="listTemplateUl2" bind-foreach="{data:$model.foreach_secondClassList($element),afterRender:$model.foreach_afterRender_secondClassList.bind($model,$element),as:'secondClassRow'}" __cid="cUNBN7n"> 
+              <li xid="li2" __cid="cUNBN7n" class="cUNBN7n"> 
+                <h5 bind-text="ref('fClassName')" class="text-muted cUNBN7n" __cid="cUNBN7n"/>  
+                <div component="$model/UI2/system/components/justep/list/list" class="x-list clearfix cUNBN7n" xid="threeClassList" bind-click="listClick" dataItemAlias="threeClassRow" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;threeClassData&quot;,&quot;filter&quot;:&quot;$row.val('fSecondID')==secondClassRow.val('fID')&quot;}" __cid="cUNBN7n"> 
+                  <ul class="x-list-template hide cUNBN7n" xid="listTemplateUl3" bind-foreach="{data:$model.foreach_threeClassList($element),afterRender:$model.foreach_afterRender_threeClassList.bind($model,$element),as:'threeClassRow'}" __cid="cUNBN7n"> 
+                    <li xid="li3" class="col col-xs-4 text-center tb-listBox text-black cUNBN7n" __cid="cUNBN7n"> 
+                      <div __cid="cUNBN7n" class="cUNBN7n">
+                        <img src="" alt="" bind-attr-src="$model.getImageUrl(val(&quot;fClassImg&quot;))" class="img-responsive cUNBN7n" __cid="cUNBN7n"/>
+                        <p bind-text="val(&quot;fClassName&quot;)" __cid="cUNBN7n" class="cUNBN7n"/>
+                      </div> 
+                    </li> 
+                  </ul> 
+                </div> 
+              </li> 
+            </ul> 
+          </div> 
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="cUNBN7n" class="cUNBN7n">.x-panel.p28e83fd96cab49a581f4952dd74c1662-iosstatusbar &gt;.x-panel-top {height: 49px;}.x-panel.p28e83fd96cab49a581f4952dd74c1662-iosstatusbar &gt;.x-panel-content { top: 49px;bottom: nullpx;}.x-panel.p28e83fd96cab49a581f4952dd74c1662-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p28e83fd96cab49a581f4952dd74c1662-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p28e83fd96cab49a581f4952dd74c1662-iosstatusbar &gt;.x-panel-top {height: 69px;}.iosstatusbar .x-panel.p28e83fd96cab49a581f4952dd74c1662-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p28e83fd96cab49a581f4952dd74c1662-iosstatusbar &gt;.x-panel-content { top: 69px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p28e83fd96cab49a581f4952dd74c1662-iosstatusbar &gt;.x-panel-top {height: 49px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p28e83fd96cab49a581f4952dd74c1662-iosstatusbar &gt;.x-panel-content {top: 49px;}</style>
+  </div> 
+</div>

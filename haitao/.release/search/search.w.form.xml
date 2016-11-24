@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window caauABv" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="caauABv" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.x-titlebar.caauABv{background-color: rgb(252, 60, 79)} .tb-index.x-titlebar.caauABv .x-titlebar-title.caauABv{padding: 10px 0} .tb-index.x-titlebar.caauABv .form-group.caauABv input.caauABv{font-size: 16px; background-color: rgb(252, 60, 79); border-top: 0; border-left: 0; border-right: 0} .tb-index.x-titlebar.caauABv .form-group.caauABv input.caauABv:focus{box-shadow: none} .btn-group.caauABv{border-top: 1px solid rgb(231, 231, 231); border-bottom: 1px solid rgb(231, 231, 231)} .btn-group.caauABv .btn.caauABv{border-left: 1px solid rgb(231, 231, 231)} .text-black.caauABv{color: rgb(85, 85, 85)} .text-white.caauABv{color: rgb(255, 255, 255)} .x-list.caauABv li.caauABv{padding: 10px; border-bottom: 1px solid rgb(231, 231, 231)} .x-list.caauABv li.caauABv i.caauABv{margin-top: 10px} .tb-clearBtn.btn-default.caauABv{border-color: rgb(252, 60, 79); background-color: rgb(255, 255, 255); color: rgb(252, 60, 79); padding: 4px 20px} .tb-title.caauABv{padding: 10px; border-bottom: 1px solid rgb(231, 231, 231)}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="caauABv" class="caauABv"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full x-card pc4c335bd50e9448cb65b46b15861777c-iosstatusbar caauABv" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="caauABv"> 
+    <div class="x-panel-top caauABv" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" data-config="{&quot;height&quot;:48}" __cid="caauABv"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar tb-index caauABv" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="caauABv"> 
+        <div class="x-titlebar-left caauABv" xid="div1" __cid="caauABv"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon caauABv" xid="button6" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;搜索&quot;}" __cid="caauABv"> 
+            <i xid="i6" class="icon-chevron-left caauABv" __cid="caauABv"/>  
+            <span xid="span6" __cid="caauABv" class="caauABv">搜索</span> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title caauABv" xid="div2" __cid="caauABv"> 
+          <div class="form-group has-feedback caauABv" xid="formGroup1" __cid="caauABv"> 
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control input-sm text-white caauABv" xid="keyInput" bind-focus="keyInputFocus" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="caauABv"/>  
+            <i class="icon-ios7-search-strong form-control-feedback caauABv" xid="col3" __cid="caauABv"/> 
+          </div> 
+        </div>  
+        <div class="x-titlebar-right  caauABv" xid="div3" __cid="caauABv">
+          <div class="empty caauABv" __cid="caauABv"/>
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-label more caauABv" xid="searchBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:searchBtnClick" data-config="{&quot;label&quot;:&quot;搜索&quot;}" __cid="caauABv"> 
+            <i xid="i11" __cid="caauABv" class="caauABv"/>  
+            <span xid="span10" __cid="caauABv" class="caauABv">搜索</span> 
+          </a>
+        </div> 
+      </div> 
+    </div>  
+    <div xid="content" class="x-panel-content x-cards caauABv" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="caauABv"> 
+      <div class="panel x-card caauABv" bind-visible="$model.searchKeyData.count()&gt;0" __cid="caauABv"> 
+        <div class="tb-title text-muted caauABv" __cid="caauABv">历史搜索</div>
+        <div component="$model/UI2/system/components/justep/list/list" class="x-list caauABv" xid="keyMenuList" bind-click="liClick" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;searchKeyData&quot;}" __cid="caauABv"> 
+          <ul class="x-list-template x-min-height hide caauABv" xid="ul1" componentname="ul(html)" id="undefined_ul1" bind-foreach="{data:$model.foreach_keyMenuList($element),afterRender:$model.foreach_afterRender_keyMenuList.bind($model,$element)}" __cid="caauABv"> 
+            <li xid="li1" class="x-min-height caauABv" componentname="li(html)" id="undefined_li1" __cid="caauABv"> 
+              <i xid="i1" class="icon-ios7-arrow-right pull-right caauABv" __cid="caauABv"/>  
+              <h5 bind-text="ref('key')" class="text-black caauABv" __cid="caauABv"/> 
+            </li> 
+          </ul> 
+        </div> 
+      </div>  
+      <div class="text-center caauABv" __cid="caauABv"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default tb-clearBtn caauABv" xid="clearBtn" bind-visible=" $model.comp(&quot;searchKeyData&quot;).count()&gt;0" style="display:none;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:clearBtnClick" data-config="{&quot;label&quot;:&quot;清空搜索历史&quot;}" __cid="caauABv"> 
+          <i xid="i2" __cid="caauABv" class="caauABv"/>  
+          <span xid="span1" __cid="caauABv" class="caauABv">清空搜索历史</span> 
+        </a> 
+      </div> 
+    </div>  
+    <style __cid="caauABv" class="caauABv">.x-panel.pc4c335bd50e9448cb65b46b15861777c-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pc4c335bd50e9448cb65b46b15861777c-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pc4c335bd50e9448cb65b46b15861777c-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pc4c335bd50e9448cb65b46b15861777c-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pc4c335bd50e9448cb65b46b15861777c-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pc4c335bd50e9448cb65b46b15861777c-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pc4c335bd50e9448cb65b46b15861777c-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc4c335bd50e9448cb65b46b15861777c-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc4c335bd50e9448cb65b46b15861777c-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>
